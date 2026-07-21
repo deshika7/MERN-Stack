@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Glassmorphism Card</title>
+    <style>
+
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:Arial, sans-serif;
+        }
+        body{
+            height:100vh;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            background:linear-gradient(
+                45deg,
+                purple,
+                blue
+            );
+        }
+        .card{
+            width:350px;
+            height:220px;
+            padding:30px;
+            background:rgba(255,255,255,0.2);
+            backdrop-filter:blur(10px);
+            border-radius:20px;
+            border:1px solid rgba(255,255,255,0.3);
+            color:white;
+            text-align:center;
+        }
+        .card h1{
+            margin-bottom:20px;
+
+        }
+        .card p{
+            font-size:18px;
+        }
+        .card button{
+            margin-top:25px;
+            padding:10px 25px;
+            border:none;
+            border-radius:20px;
+            background:white;
+            color:blue;
+            cursor:pointer;
+        }
+        .card button:hover{
+            background:blue;
+            color:white;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>Glass Card</h1>
+        <p>
+            Modern Glassmorphism Design
+        </p>
+        <button>
+            Explore
+        </button>
+    </div>
+</body>
+</html>
